@@ -1,0 +1,105 @@
+.admin-panel {
+  font-family: "Segoe UI", Arial, sans-serif;
+  animation: fadeIn 0.8s ease-in;
+  padding: 20px;
+}
+
+/* Title */
+.admin-panel h3 {
+  font-weight: bold;
+  color: #007bff;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+/* Stats bar */
+.alert-info {
+  border-radius: 12px;
+  font-size: 18px;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+  color: #0d47a1;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 12px;
+  margin-bottom: 25px;
+}
+
+/* Card styling */
+.card {
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h4 {
+  color: #343a40;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Inputs */
+.form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 6px rgba(0,123,255,0.4);
+}
+
+/* Buttons */
+.btn-primary {
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #0056b3, #0099cc);
+}
+
+/* Table */
+.table {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.table thead {
+  background: linear-gradient(135deg, #343a40, #495057);
+}
+
+.table th {
+  color: #fff;
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table-striped tbody tr:nth-child(odd) {
+  background-color: #f8f9fa;
+}
+
+.table-striped tbody tr:hover {
+  background-color: #e9f7fe;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
