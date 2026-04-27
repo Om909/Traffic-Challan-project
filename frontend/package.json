@@ -2,7 +2,7 @@
   "name": "traffic-challan-frontend",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Om909.github.io/Traffic-Challan-project",
+  "homepage": "https://om909.github.io/Traffic-Challan-project",
   "dependencies": {
     "axios": "^1.13.2",
     "bootstrap": "^5.3.8",
