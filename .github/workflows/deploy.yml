@@ -25,7 +25,11 @@ jobs:
         with:
           node-version: 20
 
-      - run: cd frontend && npm install && npm run build
+      - run: |
+    cd frontend
+    rm -rf node_modules package-lock.json
+    npm install
+    npm run build
 
       - uses: actions/upload-pages-artifact@v3
         with:
