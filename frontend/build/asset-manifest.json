@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Traffic-Challan-project/static/css/main.3ba487f5.css",
+    "main.js": "/Traffic-Challan-project/static/js/main.a7612ed6.js",
+    "index.html": "/Traffic-Challan-project/index.html",
+    "main.3ba487f5.css.map": "/Traffic-Challan-project/static/css/main.3ba487f5.css.map",
+    "main.a7612ed6.js.map": "/Traffic-Challan-project/static/js/main.a7612ed6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ba487f5.css",
+    "static/js/main.a7612ed6.js"
+  ]
+}
