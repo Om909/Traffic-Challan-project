@@ -2,6 +2,7 @@
 import express from "express";
 import Admin from "../models/Admin.js";
 import jwt from "jsonwebtoken";
+import bcrypt from 'bcryptjs';
 
 const router = express.Router();
 
